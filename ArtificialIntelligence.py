@@ -107,4 +107,9 @@ if __name__ == "__main__": #main function
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend Deepak. I am not able to send this email")    
+                speak("Sorry my friend Deepak. I am not able to send this email")
+                
+        #to exit from the program with a voice command
+        elif "you can sleep" in query:
+            speak("thanks for using me sir, have a good day.")
+            sys.exit()
