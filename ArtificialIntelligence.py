@@ -1,3 +1,4 @@
+#all modules
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speechRecognition
 import datetime
@@ -58,7 +59,7 @@ def sendEmail(to, content):
     server.sendmail('youremail@gmail.com', to, content)
     server.close()
 
-if __name__ == "__main__":
+if __name__ == "__main__": #main function
     wishMe()
     while True:
     # if 1:
